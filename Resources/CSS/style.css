@@ -1,23 +1,90 @@
 html {
-
+    font-size: 16px;
 }
 
 body {
-    background-color: #f0f0f0;
     font-family: Arial, sans-serif;
+    background-color: hsl(133, 40%, 15%);
     margin: 0;
     padding: 0;
+ 
 }
 
 /* Header */
 
 header {
-    background-color: #333;
-    color: white;
-    padding: 1rem 0;
-    text-align: center;
+    display: block;
+    justify-content: center;
+    background-color: hsl(133, 50%, 10%);
+    font-family: Limelight, cursive;
+    color: rgb(255, 255, 255);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+ 
+}
+
+header .container {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    height: 7rem;
+    margin: 0 auto;
+}
+
+header .desktop {
+    display: inline-block;
+    align-content: center;
+}
+header a {
+    text-decoration: none;
+    color: rgb(165, 165, 165);
+    font-size: 2rem;
+}
+
+header .current {
+    color: rgb(222, 224, 105);
+    text-shadow: 0px 0px 10px rgb(222, 224, 105);
+}
+
+header a.current:hover {
+    color: rgb(222, 224, 105);
+    text-shadow: 0px 0px 10px rgb(222, 224, 105);
+
+}
+
+header a:hover {
+    transition: .25s;
+    color: hsl(133, 50%, 10%);
+    text-shadow: 0px 0px 30px rgb(251, 255, 16);
 }
 
 header .mobile {
     display: none;
 }
+
+header li {
+
+    display: inline;
+    
+    padding: 3rem;
+}
+
+/* Jumbotron */
+.jumbotron {
+    display: block;
+    background-image: url("../Images/get-naked.JPG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+
+    height: 30rem;
+}   
+
+/* Content */
+
+/* Info */
+
+/* Footer */
