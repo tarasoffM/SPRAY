@@ -144,7 +144,6 @@ header li {
 
 .content .container {
     display: grid;
-    justify-content: space-around;
     height: 40rem;
     margin: 2rem;
     padding: 2rem;
