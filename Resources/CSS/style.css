@@ -135,15 +135,11 @@ header li {
     display: inline-block;
 }
 
-.quote .caption {
-
-}
-
 /* Content */
 
 
 .content .container {
-    display: grid;
+    display: flex;
     height: 40rem;
     margin: 2rem;
     padding: 2rem;
