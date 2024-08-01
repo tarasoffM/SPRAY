@@ -4,7 +4,7 @@ html {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: hsl(0, 0%, 0%);
+    background-color: hsl(312, 20%, 15%);
     margin: 0;
     padding: 0;
  
@@ -21,12 +21,12 @@ h2 {
     font-family: "Julius Sans One", sans-serif;
     font-weight: 900;
     font-size: 30px;
-    color: hsl(52, 20%, 57%);
+    color: hsl(51, 33%, 66%);
 }
 
 h3 {
     font-family: Italiana;
-    color:hsl(52, 20%, 57%);
+    color:hsl(51, 33%, 66%);
     font-weight: 600;
     font-size: 20px;
 
@@ -43,7 +43,7 @@ p {
 header {
     display: block;
     justify-content: center;
-    background-color: hsl(133, 20%, 10%);
+    background-color: hsl(312, 29%, 10%);
     font-family: Limelight, cursive;
 
     /*margin-top: 1rem;
@@ -71,7 +71,7 @@ header .container .logo {
     display: block;
     position: relative;
 
-    padding-left: 1rem;
+    padding-left: 1.22rem;
     bottom: 7.3rem;
     justify-content: center;
     align-content: center;
@@ -123,7 +123,7 @@ header li {
 /* Jumbotron */
 .jumbotron {
     display: block;
-    background-image: url("../Images/Powder01.JPG");
+    background-image: url("../Images/Earrings02.JPG");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -133,9 +133,9 @@ header li {
 }   
 .quote {
     padding: 2rem;
+    
     background-color: hsla(140, 5%, 25%, 0.253);
     width: 30%;
-    border-radius: 10px;
 }
 .caption p{
     line-height: 2rem;
@@ -148,40 +148,14 @@ header li {
 
 /* Content */
 
-.feature-section {
+
+.content .container {
     display: flex;
-    box-sizing: border-box; 
-    background-color: hsla(0, 0%, 100%, 0.123);
-    margin: 2rem auto;
-    width: 95%;
-    border-radius: 10px;
-}
-
-.feature {
-    flex: 1 1;
-    display: block;
-    padding: 1rem;
-
-  
-}
-
-.feature .boxes {
-    height: 100%;    
-}
-.image-container {
-    height: 70%;
-    border-radius: 10px;
-    overflow: hidden;  
-}
-
-.content-container h2{
-    text-align: center;
-    padding: 1rem;
-}
-
-.feature img {
-    width: 100%;
-    height: auto;
+    height: 40rem;
+    margin: 2rem;
+    padding: 2rem;
+    background-color:hsl(312, 29%, 10%);
+    border-radius: 5px;
 }
 
 /* Info */
