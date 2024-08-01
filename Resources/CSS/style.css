@@ -151,7 +151,7 @@ header li {
 .feature-section {
     display: flex;
     box-sizing: border-box; 
-    background-color: hsla(0, 0%, 100%, 0.123);
+    background-color: hsla(0, 0%, 100%, 0.089);
     margin: 2rem auto;
     width: 95%;
     border-radius: 10px;
